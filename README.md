@@ -54,6 +54,7 @@ EOF
 
 delete everything:
 ```bash
+kubectl delete ns passbolt
 kubectl delete po/mariadb svc/mariadb
 kubectl delete po/passbolt svc/passbolt ing/passbolt
 ```
