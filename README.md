@@ -61,6 +61,12 @@ kubectl delete po/passbolt svc/passbolt ing/passbolt
 
 create admin user
 ```bash
-kubectl exec -it passbolt -- su -m -c "bin/cake passbolt register_user -u admin@admin.com -f admin -l admin -r admin" -s /bin/sh www-data
+kubectl exec -it passbolt -- su -m -c "bin/cake \
+  passbolt register_user \
+  -u info@shubhamtatvamasi.com \
+  -f shubham \
+  -l tatvamasi \
+  -r admin" \
+  -s /bin/sh www-data
 ```
 > click in the link to activate
