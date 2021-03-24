@@ -69,4 +69,4 @@ kubectl exec -it passbolt -- su -m -c "bin/cake \
   -r admin" \
   -s /bin/sh www-data
 ```
-> click in the link to activate
+> click the link to activate
